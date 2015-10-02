@@ -4,6 +4,9 @@ A Node.js streaming libary and command line tool that converts [Apple
 Lossless](https://en.wikipedia.org/wiki/Apple_Lossless) (ALAC) audio to
 raw [PCM audio](https://en.wikipedia.org/wiki/Pulse-code_modulation).
 
+Currently only Node.js 0.10 is supported. Node.js 0.12 and 4 will be
+supported in the future.
+
 [![Build status](https://travis-ci.org/watson/alac2pcm.svg?branch=master)](https://travis-ci.org/watson/alac2pcm)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -81,6 +84,10 @@ Aditional, but currently unused options:
 - `kb` - (default: 14) Currently unused tuning parameter. Value should
   be set to 14
 - `maxRun` - (default: 255) Currently unused. Value should be set to 255
+
+## TODO
+
+- Support for Node.js 0.12 and 4
 
 ## License
 
