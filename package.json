@@ -4,7 +4,7 @@
   "description": "A streaming libary and command line tool for converting Apple Lossless audio to raw PCM audio",
   "main": "index.js",
   "bin": {
-    "alac2pcm": "bin/alac2pcm.js"
+    "alac2pcm": "bin.js"
   },
   "dependencies": {
     "minimist": "^1.2.0",
