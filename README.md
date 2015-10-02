@@ -85,7 +85,7 @@ Aditional, but currently unused options:
   be set to 14
 - `maxRun` - (default: 255) Currently unused. Value should be set to 255
 
-## TODO
+## Todo's
 
 - Support for Node.js 0.12 and 4
 
