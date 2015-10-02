@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/watson/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/watson/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'link' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose linkPkg /Users/watson/code/node_modules/alac2pcm
+5 verbose link build target /Users/watson/.nvm/v0.10.40/lib/node_modules/alac2pcm
+6 verbose install where,what [ '/Users/watson/code/node_modules/alac2pcm', [] ]
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/watson/code/node_modules/alac2pcm',
+8 verbose install   [ 'minimist', 'xtend', 'libalac', 'readable-stream', 'standard' ] ]
+9 info preinstall alac2pcm@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping minimist@^1.2.0 /Users/watson/code/node_modules/alac2pcm
+12 verbose already installed skipping xtend@^4.0.0 /Users/watson/code/node_modules/alac2pcm
+13 verbose already installed skipping libalac@^0.1.0 /Users/watson/code/node_modules/alac2pcm
+14 verbose already installed skipping readable-stream@^2.0.2 /Users/watson/code/node_modules/alac2pcm
+15 verbose already installed skipping standard@^5.3.1 /Users/watson/code/node_modules/alac2pcm
+16 silly resolved []
+17 info build /Users/watson/code/node_modules/alac2pcm
+18 verbose linkStuff [ false, false, false, '/Users/watson/code/node_modules' ]
+19 info linkStuff alac2pcm@0.0.0
+20 verbose linkBins alac2pcm@0.0.0
+21 verbose link bins [ { alac2pcm: 'alac2pcm.js' },
+21 verbose link bins   '/Users/watson/code/node_modules/.bin',
+21 verbose link bins   false ]
+22 verbose linkMans alac2pcm@0.0.0
+23 verbose rebuildBundles alac2pcm@0.0.0
+24 verbose rebuildBundles [ '.bin',
+24 verbose rebuildBundles   'libalac',
+24 verbose rebuildBundles   'minimist',
+24 verbose rebuildBundles   'readable-stream',
+24 verbose rebuildBundles   'standard',
+24 verbose rebuildBundles   'xtend' ]
+25 error Error: ENOENT, chmod '/Users/watson/code/node_modules/alac2pcm/alac2pcm.js'
+26 error If you need help, you may report this *entire* log,
+26 error including the npm and node versions, at:
+26 error     <http://github.com/npm/npm/issues>
+27 error System Darwin 14.5.0
+28 error command "/Users/watson/.nvm/v0.10.40/bin/node" "/Users/watson/.nvm/v0.10.40/bin/npm" "link"
+29 error cwd /Users/watson/code/node_modules/alac2pcm
+30 error node -v v0.10.40
+31 error npm -v 1.4.28
+32 error path /Users/watson/code/node_modules/alac2pcm/alac2pcm.js
+33 error code ENOENT
+34 error errno 34
+35 verbose exit [ 34, true ]

@@ -1,0 +1,44 @@
+{
+  "name": "alac2pcm",
+  "version": "0.0.0",
+  "description": "A streaming libary and command line tool for converting Apple Lossless audio to raw PCM audio",
+  "main": "index.js",
+  "bin": {
+    "alac2pcm": "bin/alac2pcm.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "xtend": "^4.0.0",
+    "libalac": "^0.1.0",
+    "readable-stream": "^2.0.2"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/alac2pcm.git"
+  },
+  "keywords": [
+    "alac",
+    "apple",
+    "lossless",
+    "pcm",
+    "audio",
+    "sound",
+    "stream",
+    "streaming",
+    "cli",
+    "tool",
+    "convert"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/alac2pcm/issues"
+  },
+  "homepage": "https://github.com/watson/alac2pcm"
+}
