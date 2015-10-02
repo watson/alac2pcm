@@ -1,6 +1,6 @@
 {
   "name": "alac2pcm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A streaming libary and command line tool for converting Apple Lossless audio to raw PCM audio",
   "main": "index.js",
   "bin": {
@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/watson/alac2pcm",
   "coordinates": [
-    55.6877313,
-    12.5955737
+    55.6877301,
+    12.595596
   ]
 }
