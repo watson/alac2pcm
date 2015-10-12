@@ -9,7 +9,7 @@
   "dependencies": {
     "minimist": "^1.2.0",
     "xtend": "^4.0.0",
-    "libalac": "^0.1.0",
+    "libalac": "git://github.com/microadam/node-libalac#497171fb1c0799cad10c224b1829b379a4815639",
     "readable-stream": "^2.0.2"
   },
   "devDependencies": {
